@@ -1,0 +1,96 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.header
+{
+    height:100px;
+    width:100%;
+    background-color:transparent;
+    border:1px solid rgb(205, 194, 194)32;
+    display: flex;
+    flex-wrap: wrap;
+    align-items:start;
+
+}
+.Amazon{
+    margin-left: 10px;
+}
+.navebar
+{
+    height:30px;
+    width: 100%;
+    background-color:rgb(30, 29, 29);
+    color:white;
+}
+ul{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+     
+}
+li
+{
+      display: flex;
+
+}
+
+.section{
+    height:30vh;
+    width:100%;
+    border:1px solid none;
+    color: rgb(255, 0, 0) ;
+    background-color: violet;
+    margin-top:5px;
+    display: flex;
+    align-items:center;
+    scroll-behavior: alternate;
+    
+    /* justify-content:center;  */
+
+ }
+
+.content{
+    height:auto;
+    width:99%;
+    margin-top:50px;
+    border: 1px solid rgb(59, 64, 67) ;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.divs{
+    height:160px;
+    width: 170px ;
+    border: transparent;
+    border-radius:5px;
+    margin: 5px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    
+    background-image: url(Nature.jpg);
+    background-size:cover;
+}  
+
+
+.apple{
+    
+    color:white;
+    background-image: url(https://cdn.britannica.com/22/187222-050-07B17FB6/apples-on-a-tree-branch.jpg);
+    background-size:cover;
+}
+
+.banana{
+    color:white;
+    background-image: url(https://images.immediate.co.uk/production/volatile/sites/30/2017/01/Bunch-of-bananas-67e91d5.jpg?quality=90&resize=440,400);
+    background-size:cover;
+}
+
+.grape{
+    color:rgb(5, 237, 109);
+    background-image: url(https://www.indianonshop.com/wp-content/uploads/2022/06/Graps.jpg);
+    background-size: cover;
+}
