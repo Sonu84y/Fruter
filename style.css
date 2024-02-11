@@ -53,7 +53,7 @@ li
 .content{
     height:auto;
     width:99%;
-    margin-top:50vh;
+    margin-top:100vh;
     border: 1px solid rgb(59, 64, 67) ;
     display: flex;
     flex-wrap: wrap;
