@@ -1,7 +1,9 @@
 *{
     margin:0px;
     padding:0px;
+   
 }
+
 .header
 {
     height:100px;
@@ -13,9 +15,11 @@
     align-items:start;
     
 }
+
 .Amazon{
     margin-left: 10px;
 }
+
 .navebar
 {
     height:30px;
@@ -23,16 +27,48 @@
     background-color:rgb(30, 29, 29);
     color:white;
 }
+
 ul{
     display:flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     
 }
+
 li{
     cursor: pointer;
+    margin-top: 3px;
     list-style: none;
 }
+
+.item1{
+    display: flex;
+
+}
+
+input {
+
+    height:15px;
+    width:200px;
+    margin-top:3px;
+}
+
+h1{
+    margin-left: 10px;
+    font-size: 15px;
+     margin-top: 5px;
+}
+
+.logo{
+    height:20px;
+    width: 20px;
+    border:1px solid white ;
+    background-image:url(https://t4.ftcdn.net/jpg/06/32/57/11/360_F_632571187_glzcmAoI5egceKDX23z0SxqpJUxAQPk4.jpg);
+    display: inline-block;
+    background-size:cover;
+    border-radius:50%;
+}
+
 .section{
     height:30vh;
     width:100%;
@@ -48,9 +84,19 @@ li{
 
  }
 
+
+img{
+    height:30vh;
+    width:100%;
+    background-image:url(https://cdn.mos.cms.futurecdn.net/xCZ2VwHz6pDUHCSVvaQsDT.jpg);
+    background-size:cover;
+    border-radius:5px;
+}
+
 .content{
     height:auto;
     width:99%;
+    border-radius:5px;
     margin-top:13vh;
     margin-left:5px;
     border: 1px solid rgb(59, 64, 67) ;
@@ -69,7 +115,7 @@ li{
     display: flex;
     justify-content: center;
     align-items: end;
-    
+    color:rgb(50, 57, 61);
     background-image: url(Nature.jpg);
     background-size:cover;
 }  
@@ -77,29 +123,39 @@ li{
 
 .apple{
     
-    color:white;
+    
     background-image: url(https://cdn.britannica.com/22/187222-050-07B17FB6/apples-on-a-tree-branch.jpg);
     background-size:cover;
     cursor:pointer;
 }
 
 .banana{
-    color:white;
     background-image: url(https://images.immediate.co.uk/production/volatile/sites/30/2017/01/Bunch-of-bananas-67e91d5.jpg?quality=90&resize=440,400);
     background-size:cover;
     cursor:pointer;
 }
 
 .grape{
-    color:rgb(5, 237, 109);
     background-image: url(https://www.indianonshop.com/wp-content/uploads/2022/06/Graps.jpg);
     background-size: cover;
     cursor:pointer;
 }
 
 .orange{
-    color:white;
-    background-image: url();
+    background-image: url(https://cdn.mos.cms.futurecdn.net/xCZ2VwHz6pDUHCSVvaQsDT.jpg);
     background-size:cover;
     cursor:pointer;
+}
+
+.mango{
+    background-image:url(https://media.istockphoto.com/id/168370138/photo/mango.jpg?s=612x612&w=0&k=20&c=ENq2BrUV8dNH2rth_ZYBBtS9RWDwCbI25SfulxirmnQ=);
+    background-size:cover;
+    cursor:pointer;
+}
+
+.strawberry{
+    background-image:url(https://clv.h-cdn.co/assets/15/22/2560x1280/landscape-1432664914-strawberry-facts1.jpg);
+    background-size:cover;
+    cursor: pointer;
+
 }
