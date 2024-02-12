@@ -10,9 +10,7 @@
     width:100%;
     /* background-color:blue; */
     border:1px solid rgb(225, 255, 0)32;
-    display: flex;
-    flex-wrap: wrap;
-   align-items:start;
+   
     
 }
 
@@ -78,7 +76,7 @@ h1{
     background-color: transparent;
     margin-top:5px;
     position: relative;
-    bottom:20px;
+    top : 50px;
     display: flex;
     align-items:center;
     scroll-behavior: alternate;
@@ -111,8 +109,8 @@ img{
 }
 
 .divs{
-    height:160px;
-    width: 170px ;
+    height:170px;
+    width: 250px ;
     border: transparent;
     border-radius:5px;
     margin: 5px;
