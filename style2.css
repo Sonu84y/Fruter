@@ -1,0 +1,11 @@
+*{
+    margin: 0px;
+    padding:0px;
+
+}
+.discription{
+    height:30px;
+    width:100%;
+    border:1px solid black;
+    border-radius:15px ;
+}
