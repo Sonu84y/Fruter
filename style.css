@@ -120,7 +120,7 @@ img{
 
 .divs{
     height: 170px;
-    width: 250px ;
+    width: 400px ;
     border:1px solid black;
     border-radius:5px;
     margin: 5px;
@@ -177,4 +177,10 @@ img{
     background-size:cover;
     cursor: pointer;
    
+}
+.Sonu{
+    cursor:pointer;
+    background-image:url(Sonu.jpg);
+    background-size:cover;
+  
 }
