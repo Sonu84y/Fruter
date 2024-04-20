@@ -4,8 +4,9 @@
     
 }
 
-header{
 
+header{
+    
     height: 5rem;
     width:100%;
     background-color: orangered;
@@ -27,12 +28,13 @@ header{
     list-style: none;
     display: flex;
     gap: 4rem;
-
+    
 }
 
 .container ul li{
     line-height: 5rem;
     font-weight: bold;
+    cursor: pointer;
     /* position: relative; */
 }
 
@@ -42,12 +44,12 @@ header{
 }
 
 .container .drop_down{
-       min-width: 15vw;
-       height:auto;
-       background-color: transparent;
-       display: flex;
-       flex-direction: column;
-       align-items: center;
+    min-width: 15vw;
+    height:auto;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
        position: absolute;
        padding: 5px 0px;
        position:absolute;
@@ -56,10 +58,10 @@ header{
        visibility: hidden;
        opacity: 0;
     }
-
-
+    
+    
     .container .drop_down li{
-          
+        
         height:3rem;
         line-height:3rem;
         width: 100%;
@@ -68,34 +70,59 @@ header{
         background: red;
         
     }
-
+    
     .container .drop_down li:hover{
         color:white;
         border: none;
-
+        
     }
 
- .input{
+    .search_container{
+        height: 30vh;
+        width: 100vw;
+        border:1px solid red;
+        background: url(veg.jpg);
+        background-size: cover;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+       }
+    
+ .search{
      /* margin-top: 10px; */
-    height:auto;
-    width: 34vw;
-    background-color: gray;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 12px; 
-}
+     height:auto;
+     width: 60vw;
+     background-color: gray;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border-radius: 12px; 
+    }
+    
+    .search i{
+        
+    }
 
-  .input input{
-    width: 30vw;
-    background-color: transparent;
-    height: 20px;
-    border: none;
-  }
+    .search input{
+        width: 54vw;
+        height: 8vh;
+        background-color: transparent;
+        border: none;
+        color: white;
+        font-size: 20px;
+    }
+    
+    .search input:focus{
+        outline: none;
+    }
 
-  .input input:focus{
-    outline: none;
-  }
-
-   
-
+    .search ::-webkit-input-placeholder{
+        color:white;
+        cursor:text;
+    }
+    
+    .section{
+        height: 85vh;
+        background: url(hot_image.jpg);
+        background-size: cover;
+    }
