@@ -1,88 +1,101 @@
 *{
     margin:0px;
     padding:0px;
-   
+    
 }
 
-.header
-{
-    height:150px;
+header{
+
+    height: 5rem;
     width:100%;
-    border:none;
-    
-    
-}
-
-.Amazon{
-    margin-left: 10px;
-}
-
-.navebar
-{
-    height:50px;
-    width: 100%;
-    background-color:rgb(255, 15, 15);
-    color:white;
-    /* position: sticky; */
-    position:absolute;
-    z-index:1;
-    top:0px;
-}
-
-ul{
-    display:flex;
-    justify-content: space-evenly;
-    align-items: center;
-    
-}
-
-li{
-    cursor: pointer;
-    margin-top: 10px;
-    list-style: none;
-}
-
-.item1{  
+    background-color: orangered;
     display: flex;
+    justify-content: center;
+    /* align-items:center; */
+}
+
+.container{
+    width: 90vw;
+    /* color: white; */
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.container ul{
+    height: 5rem;
+    list-style: none;
+    display: flex;
+    gap: 4rem;
 
 }
 
-input {
-    color: white;
-    height:15px;
-    width:200px;
-    margin-top:3px; 
-    border-radius:5px;
-    border:3px solid trnasparent;
-    border:none;
-    background-color: darkgray;
+.container ul li{
+    line-height: 5rem;
+    font-weight: bold;
+    /* position: relative; */
 }
-::-webkit-input-placeholder{
-    color: white;
+
+.container ul li:hover> .drop_down{
+    visibility: visible;
+    opacity: 1;
 }
-input:hover{
-    color: white;
+
+.container .drop_down{
+       min-width: 15vw;
+       height:auto;
+       background-color: transparent;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       position: absolute;
+       padding: 5px 0px;
+       position:absolute;
+       left: 64%;
+       gap: 5px;
+       visibility: hidden;
+       opacity: 0;
+    }
+
+
+    .container .drop_down li{
+          
+        height:3rem;
+        line-height:3rem;
+        width: 100%;
+        border:1px solid white;
+        text-align: center;
+        background: red;
+        
+    }
+
+    .container .drop_down li:hover{
+        color:white;
+        border: none;
+
+    }
+
+ .input{
+     /* margin-top: 10px; */
+    height:auto;
+    width: 34vw;
     background-color: gray;
-}
-input:focus{
-  outline:none;
-}
-
-.logo{
-    height:20px;
-    width: 20px;
-    border:1px solid white ;
-    background-image:url(https://t4.ftcdn.net/jpg/06/32/57/11/360_F_632571187_glzcmAoI5egceKDX23z0SxqpJUxAQPk4.jpg);
-    display: inline-block;
-    background-size:cover;
-    border-radius:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px; 
 }
 
-.body_section{
-    min-height: 100vh;
-    width: 100vw;
-    border: 1px  solid black;
-    margin-top: 0.5px;
-    background-image:url(hot_image.jpg);
-    background-size: cover;
-}
+  .input input{
+    width: 30vw;
+    background-color: transparent;
+    height: 20px;
+    border: none;
+  }
+
+  .input input:focus{
+    outline: none;
+  }
+
+   
+
