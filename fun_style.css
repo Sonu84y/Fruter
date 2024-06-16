@@ -1,0 +1,85 @@
+ *{
+    margin: 0px;
+    padding: 0px;
+    background-color: transparent;
+    color: white;
+ }
+
+ .table_container{
+        margin-top: 100px;
+        height: auto;
+        width: 90vw;
+        background-color:deepskyblue;
+ }
+
+ .fun_one{
+     width: 100%;
+     background-color: darkturquoise;
+     box-shadow: 2px 3px 5px 3px deepskyblue;
+     display: flex;
+     align-items: center; 
+     justify-content: center;
+     flex-direction: column; 
+     
+    }
+    .fun_two{
+        height: 50vh;
+    }
+    
+    .add_btn{
+    height: 40px;
+    width: 50%;
+    border: none;
+}
+
+.save_btn{
+    height: 40px;
+    width: 50%;
+    border: none;
+}
+
+th{
+    font-size: larger;
+    font-weight: bolder;
+}
+
+td{
+    height: 10px;
+    width: 60px;
+    border: 1px solid blue; 
+    text-align: center;
+    font-weight: bold;
+}
+
+
+input{
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+}
+
+input:focus{
+    outline: none;
+}
+
+
+.btn_container{
+    height: auto;
+    width: 90vw;
+    border: 1px solid yellow;
+    display: flex;
+    bottom: 43vh;
+    background-color: cadetblue;
+}
+
+.first_h{
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+.s_h{
+    margin-top: 20px;
+}
