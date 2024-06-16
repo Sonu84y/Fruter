@@ -78,9 +78,9 @@ header{
         
     }
 
-    .search_container{
+    .template_container{
         height: 30vh;
-        width: 100vw;
+        width: 100%;
         border:1px solid red;
         background: url(veg.jpg);
         background-size: cover;
@@ -92,7 +92,7 @@ header{
  .search{
      /* margin-top: 10px; */
      height:auto;
-     width: 40vw;
+     width: 42vw;
      text-align:center;
      background-color: darkgray;
      display: flex;
@@ -100,15 +100,16 @@ header{
      align-items: center;
      border-radius: 12px; 
     }
-    
+
     .search i{
+        margin-right: 10px;
         cursor: pointer;
         color: white;
-    }
+    } 
 
     .search input{
-        width: 54vw;
-        height: 8vh;
+        width: 53vw;
+        height: 6vh;
         background-color: transparent;
         border: none;
         color: white;
